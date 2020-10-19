@@ -1,6 +1,10 @@
 import React from 'react';
+
 import logo from './logo.svg';
 import './App.css';
+import MeasurementList from './views/measurementList/MeasurementList';
+import CreateMeasurementForm from './views/createMeasurement/CreateMeasurementForm';
+
 
 function App() {
   return (
@@ -10,6 +14,8 @@ function App() {
         <p>
           Welcome to the electricity calculator!
         </p>
+        <MeasurementList/>
+        <CreateMeasurementForm/>
       </header>
     </div>
   );
