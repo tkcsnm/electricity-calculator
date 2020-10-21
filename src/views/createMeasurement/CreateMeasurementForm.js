@@ -18,7 +18,9 @@ class CreateMeasurementForm extends React.Component {
       date: this.state.date,
       measurement: this.state.measurement
     }
-    // TODO: save the value 
+    //save the value 
+    this.props.funcAddMeasurement
+    (newMeasurementValues);
     console.log(newMeasurementValues);
   }
 
